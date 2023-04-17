@@ -3,11 +3,11 @@
 from setuptools import setup, find_packages
 
 test_deps = [
-      "pytest>=5,<6"
-    , "pytest-cov>=2.8.1,<3"
+      "pytest>=5,<8"
+    , "pytest-cov>=2.8.1,<4"
     , "pytest-mypy>=0.4.2,<1"
-    , "flake8>=3,<4"
-    , "ipykernel>=5.1.3,<6" ]
+    , "flake8>=3,<6"
+    , "ipykernel>=5.1.3,<7" ]
 
 setup(
     name="entangled-filters",
