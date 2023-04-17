@@ -15,9 +15,9 @@ setup(
     packages=find_packages(),
 
     install_requires=[
-          "jupyter_client>=5.3.4,<6"
+          "jupyter_client>=5.3.4,<9"
         , "pampy>=0.3.0,<0.4"
-        , "panflute==1.11.2"
+        , "panflute<3"
         , "ansi2html"
     ],
     tests_require=test_deps,
